@@ -20,4 +20,7 @@ class Dog
       puts x.name
     end
   end
+  def save
+    @@all << self
+  end
 end
